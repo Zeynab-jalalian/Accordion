@@ -35,3 +35,8 @@ body{
  font-size: 1.5rem;
  color: white;
 }
+.accordion .contentBox .content{
+    background: #fff;
+    height: 0;
+    overflow-y: hidden;
+}
