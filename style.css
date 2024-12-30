@@ -39,4 +39,11 @@ body{
     background: #fff;
     height: 0;
     overflow-y: hidden;
+    transition: 0.5s;
 }
+.accordion .contentBox.change .content{
+  height: 150px;
+}
+.accordion .contentBox.change .label::before{
+    content: '-';
+  }
